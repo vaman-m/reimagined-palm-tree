@@ -1,20 +1,20 @@
-Type,Price ,Website
-Rake,1065,https://www.amazon.in/Rakes/b?ie=UTF8&node=3639037031
-Shovel,1030,https://www.amazon.in/Shovels/b?ie=UTF8&node=3639039031
-Pickaxe,590,https://www.amazon.in/Axes/b?ie=UTF8&node=3639008031
-Machete,800,https://www.ubuy.co.in/search/?q=machetes
-Wheelbarrow,3575,https://www.amazon.in/Wheel-Barrow/s?k=Wheel+Barrow
-Pick-mattock,1635,https://dir.indiamart.com/impcat/pick-mattock.html
-Pitchfork,590,https://www.flipkart.com/home-improvement/lawn-and-gardening/gardening-tools/pitchforks/pr?sid=h1m%2Cum7%2Cyse%2Cutu
-Pruning shears,545,https://www.flipkart.com/home-improvement/lawn-and-gardening/gardening-tools/pruners/pr?sid=h1m%2Cum7%2Cyse%2Civz
-(Aku) Chainsaw,7265,https://www.amazon.in/Chain-Saws/b?ie=UTF8&node=3639139031
-Sprinkler,975,https://www.amazon.in/Sprinklers/b?ie=UTF8&node=3639108031
-Sprayers,15000,https://www.flipkart.com/home-improvement/lawn-and-gardening/watering-equipments/garden-sprayers/pr?sid=h1m%2Cum7%2Ci06%2Cchn
-Tractor,540000,https://www.tractorjunction.com/
-Cultivator,29000,https://dir.indiamart.com/impcat/cultivator.html
-Harvester,240000,https://dir.indiamart.com/impcat/combine-harvester.html
-Set of harrows,247000,https://dir.indiamart.com/impcat/hydraulic-disc-harrow.html
-Fertilizer/Seeder,465,https://www.amazon.in/Fertilizer-Soil/b?ie=UTF8&node=3638818031
-Agricultural roller,120000,https://dir.indiamart.com/impcat/used-road-roller.html
-Baler,352000,https://www.tractorjunction.com/used-farm-implements-for-sell/baler/
-Plough,57500,https://dir.indiamart.com/impcat/agricultural-plough.html
+type,price,website
+rake,1065,https://www.amazon.in/Rakes/b?ie=UTF8&node=3639037031
+shovel,1030,https://www.amazon.in/Shovels/b?ie=UTF8&node=3639039031
+pickaxe,590,https://www.amazon.in/Axes/b?ie=UTF8&node=3639008031
+machete,800,https://www.ubuy.co.in/search/?q=machetes
+wheelbarrow,3575,https://www.amazon.in/Wheel-Barrow/s?k=Wheel+Barrow
+pick-mattock,1635,https://dir.indiamart.com/impcat/pick-mattock.html
+pitchfork,590,https://www.flipkart.com/home-improvement/lawn-and-gardening/gardening-tools/pitchforks/pr?sid=h1m%2Cum7%2Cyse%2Cutu
+pruning shears,545,https://www.flipkart.com/home-improvement/lawn-and-gardening/gardening-tools/pruners/pr?sid=h1m%2Cum7%2Cyse%2Civz
+chainsaw,7265,https://www.amazon.in/Chain-Saws/b?ie=UTF8&node=3639139031
+sprinkler,975,https://www.amazon.in/Sprinklers/b?ie=UTF8&node=3639108031
+sprayers,15000,https://www.flipkart.com/home-improvement/lawn-and-gardening/watering-equipments/garden-sprayers/pr?sid=h1m%2Cum7%2Ci06%2Cchn
+tractor,540000,https://www.tractorjunction.com/
+cultivator,29000,https://dir.indiamart.com/impcat/cultivator.html
+harvester,240000,https://dir.indiamart.com/impcat/combine-harvester.html
+set of harrows,247000,https://dir.indiamart.com/impcat/hydraulic-disc-harrow.html
+fertilizer,465,https://www.amazon.in/Fertilizer-Soil/b?ie=UTF8&node=3638818031
+agricultural roller,120000,https://dir.indiamart.com/impcat/used-road-roller.html
+baler,352000,https://www.tractorjunction.com/used-farm-implements-for-sell/baler/
+plough,57500,https://dir.indiamart.com/impcat/agricultural-plough.html

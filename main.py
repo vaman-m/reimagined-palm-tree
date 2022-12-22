@@ -2,16 +2,16 @@ import speech_recognition as sr
 import pyttsx3
 import pandas as pd
 import pyaudio
-import sounddevice
+
 
 listener = sr.Recognizer()
 engine = pyttsx3.init()
 
 
 def queryDatabase(text):
-    readCSV = pd.read_csv("D:\DC\dataOpen.csv")
+    readCSV = pd.read_csv("dataOpen.csv")
     df = pd.DataFrame(readCSV)
-    answer = df.loc[df['Type'] == text]
+    answer = df.loc[df['type'] == text]
     print(answer)
 
 def talk(text):
@@ -21,13 +21,15 @@ def talk(text):
 def take_command():
     with sr.Microphone() as source:
         # read the audio data from the default microphone
-        listener.adjust_for_ambient_noise(source, duration=2)
+        listener.adjust_for_ambient_noise(source)
         print("Listening...")
-        audio_data = listener.record(source, duration=5)
+        audio_data = listener.listen(source)
         # convert speech to text
-        command = listener.recognize_google(audio_data)
+        command = listener.recognize_sphinx(audio_data)
         print(command)
-    products = ['Rake', 'Shovel', 'Pickaxe', 'Machete','Wheelbarrow','Pick-mattock','Pitchfork','Pruning shears','(Aku) Chainsaw','Sprinkler','Sprayers','Tractor','Cultivator','Harvester','Set of harrows','Fertilizer/Seeder','Agricultural roller','Baler','Plough']
+    readCSV = pd.read_csv("dataOpen.csv")
+    df = pd.DataFrame(readCSV)
+    products = list(df.type)
     sentence = list(command.split(" "))
     products = set(products)
     for x in sentence:
@@ -38,11 +40,12 @@ def take_command():
 
 if __name__=="__main__":
     intro = " Hi i am your assistant."
-    krithik = "What tool do you need?"
+    intro_part2 = "What tool do you need? Please wait one moment before speaking"
+    outro = "Here is the price and a link to the website for purchase"
     print(intro)
     talk(intro)
-    print(krithik)
-    talk(krithik)
-
+    print(intro_part2)
+    talk(intro_part2)
     tool = take_command()
     queryDatabase(tool)
+    talk(outro)
