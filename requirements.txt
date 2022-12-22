@@ -1,7 +1,4 @@
-﻿apiai==1.2.3
 pandas==1.5.2
-pipreqs==0.4.11
 PyAudio==0.2.12
 pyttsx3==2.90
 SpeechRecognition==3.9.0
-
